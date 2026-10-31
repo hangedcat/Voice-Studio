@@ -1,0 +1,12 @@
+# environment and third-party code (rebuild with the steps in README.md)
+.venv/
+vendor/
+
+# personal data and large binaries: voice recordings, trained voices, songs, renders
+datasets/
+models/
+output/
+checks/out/
+
+__pycache__/
+.pytest_cache/
